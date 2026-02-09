@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['.', 'broken', 'dent', 'normal', 'objects', 'scratch']
+
+roboflow:
+  workspace: yolov11annotation-l8vzv
+  project: objectdetection_project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov11annotation-l8vzv/objectdetection_project/dataset/1
